@@ -31,20 +31,3 @@ void selection_sort(int *array, size_t size)
 		}
 	}
 }
-
-/**
- * swap- swaps 2 values
- *
- * @x: 1st value to be swapped
- * @y: 2nd value to be swapped
- *
- */
-
-void swap(int *x, int *y)
-{
-	int temp;
-
-	temp = *y;
-	*y = *x;
-	*x = temp;
-}
