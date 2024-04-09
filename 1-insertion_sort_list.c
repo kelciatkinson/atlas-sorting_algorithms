@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list- 
+ * insertion_sort_list- sort a linked list using insertion sort
  *
- * @list:
+ * @list: head node of linked list
  *
  */
 
